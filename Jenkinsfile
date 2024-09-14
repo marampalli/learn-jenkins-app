@@ -43,6 +43,7 @@ pipeline {
                     iamge 'mcr.microsoft.com/playwright:v1.47.1-noble'
                     reuseNode true
                 }
+            }
                 steps {
                     sh '''
                     npm install serve
